@@ -1,21 +1,14 @@
-The Inventory
+My App Portfolio
 ===================================
 
-This Android application allows the user to keep track of an inventory by logging
-items into a database stored locally.
+This Android application launches all applications build in the Android Development Nanodegree
+at Udacity.
 
-![screenshot_20160930-163141](https://cloud.githubusercontent.com/assets/10713096/19006147/c0220080-8723-11e6-8217-2b7603ea1533.png)
-
-![screenshot_20160930-163149](https://cloud.githubusercontent.com/assets/10713096/19006156/c8c172d4-8723-11e6-8930-5a21628ed398.png)
 
 
 Key Concepts applied
 --------------------
-- Storing information in a SQLite database
-- Integrating Android’s file storage systems into that database
-- Presenting information from files and SQLite databases to users
-- Updating information based on user input.
-- Creating intents to other apps using stored information.
+- TBD
 
 Pre-requisites
 --------------

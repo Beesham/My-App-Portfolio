@@ -8,6 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+    android:gravity="center_vertical"
     tools:context="com.beesham.myappportfolio.PorfolioActivity">
 
     <TextView
@@ -18,10 +19,15 @@
         android:text="@string/porfolio_label"
         android:layout_marginBottom="8dp"/>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
     <Button
         android:id="@+id/popular_movies"
         style="@style/portfolio_button_style"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/popular_movies"
         android:onClick="onButtonClicked"/>
@@ -29,7 +35,7 @@
     <Button
         android:id="@+id/stock_hawk"
         style="@style/portfolio_button_style"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/stock_hawk"
         android:onClick="onButtonClicked"/>
@@ -37,7 +43,7 @@
     <Button
         android:id="@+id/build_it_bigger"
         style="@style/portfolio_button_style"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/build_it_bigger"
         android:onClick="onButtonClicked"/>
@@ -45,7 +51,7 @@
     <Button
         android:id="@+id/make_your_app_material"
         style="@style/portfolio_button_style"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/make_your_app_material"
         android:onClick="onButtonClicked"/>
@@ -53,7 +59,7 @@
     <Button
         android:id="@+id/go_ubiquitious"
         style="@style/portfolio_button_style"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/go_ubiquitious"
         android:onClick="onButtonClicked"/>
@@ -61,9 +67,10 @@
     <Button
         android:id="@+id/capstone"
         style="@style/portfolio_button_style"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/capstone"
         android:onClick="onButtonClicked"/>
+    </LinearLayout>
 
 </LinearLayout>
